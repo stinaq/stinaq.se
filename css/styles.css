@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.main-title {
+  font-size: 5rem;
+  margin: 0;
+  color: #0c8ba0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.center-page {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.photography-link {
+  color: #33997d;
+}
+
+.paintings-link {
+  color: #9e2194;
+}
+
+.contact-link {
+  color: #9e2121;
+}

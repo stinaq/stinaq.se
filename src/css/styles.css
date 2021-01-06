@@ -13,11 +13,17 @@ body {
 
 }
 
+.main-title {
+  margin-bottom: 0;
+}
+
 .main-title a {
   font-size: 5rem;
+  font-weight: 400;
   margin: 0;
-  color: #0c8ba0;
+  color: #3c3c3c;
   font-family: 'Raleway', sans-serif;
+  font-family: 'EB Garamond', serif;
 }
 
 .app-menu {
@@ -45,17 +51,17 @@ body {
 
 .photography-link > *,
 .photography-link {
-  color: #33997d;
+  color: #33658a;
 }
 
 .paintings-link > *,
 .paintings-link {
-  color: #9e2194;
+  color: #b98389;
 }
 
 .contact-link > *,
 .contact-link {
-  color: #9e2121;
+  color: #95a472;
 }
 
 .image-content {

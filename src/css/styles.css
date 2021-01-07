@@ -6,11 +6,39 @@ body {
 
 body {
   background-color: #fff;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .app-content {
 
+}
+
+@keyframes slideup {
+  from {
+    margin-top: 10rem;
+  }
+  to {
+    margin-top: 2rem;
+  }
+}
+
+.app-menu {
+  text-align: center;
+  margin-top: 10rem;
+  background-color: #fff;
+  padding-bottom: 0.5rem;
+}
+
+.app-menu.sub-page {
+  margin-top: 1rem;
+}
+
+.app-menu h3 {
+  display: inline-block;
+}
+
+.app-menu a {
+  text-decoration: none;
 }
 
 .main-title {
@@ -22,31 +50,36 @@ body {
   font-weight: 400;
   margin: 0;
   color: #3c3c3c;
-  font-family: 'Raleway', sans-serif;
   font-family: 'EB Garamond', serif;
-}
-
-.app-menu {
-  text-align: center;
-  margin-top: 10rem;
-  background-color: #fff;
-  padding-bottom: 0.5rem;
-}
-
-.app-menu h3 {
-  display: inline-block;
-}
-
-.app-menu a {
-  text-decoration: none;
 }
 
 .main-menu {
   font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 32em) {
+  .main-menu {
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .main-menu h3:not(:first-child) {
+    margin-left: 0.6rem;
+  }
 }
 
 .main-menu h3 {
   margin: 0;
+}
+
+.main-menu h3.active {
+  text-decoration: underline;
+}
+
+.sub-menu {
+  margin-top: 0.5rem;
 }
 
 .photography-link > *,

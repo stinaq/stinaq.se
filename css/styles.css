@@ -36,7 +36,7 @@ a {
 
 .app-menu h3 {
   display: inline-block;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.25em;
 }
 
@@ -83,7 +83,7 @@ a {
 
 .sub-menu {
   margin-top: 2rem;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .photography-link > *,

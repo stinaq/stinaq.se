@@ -7,6 +7,7 @@ body {
 body {
   background-color: #fff;
   font-family: 'Raleway', sans-serif;
+  font-weight: 200;
 }
 
 a {
@@ -35,6 +36,8 @@ a {
 
 .app-menu h3 {
   display: inline-block;
+  font-weight: 100;
+  font-size: 1.25em;
 }
 
 .app-menu a {
@@ -79,7 +82,8 @@ a {
 }
 
 .sub-menu {
-  margin-top: 0.5rem;
+  margin-top: 2rem;
+  font-size: 1.1em;
 }
 
 .photography-link > *,
@@ -95,6 +99,10 @@ a {
 .contact-link > *,
 .contact-link {
   color: #95a472;
+}
+
+.content-heading {
+  margin-top: 5rem;
 }
 
 .image-content {
